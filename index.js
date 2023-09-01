@@ -1,5 +1,7 @@
 const readlineSync = require('readline-sync');
 
+const task = [];
+
 function userMenu() {
   console.log('Daily Task Manager');
   console.log('1. Add task');
